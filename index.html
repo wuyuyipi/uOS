@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name = "viewport" content ="width=device-width,initial-scale=1"> -->
+
+	<title>uOS</title>
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+	<link rel="stylesheet" type="text/css" href="css/taskbar.css">
+	<link rel="stylesheet" type="text/css" href="css/themes.css">
+
+	<link rel = "icon" href = "imgaes/assets/logo.png" type = "image/logo">
+
+	<script src="scrollmagic\minified\ScrollMagic.min.js"></script>
+	<script src="scrollmagic\minified\plugins\debug.addIndicators.min.js"></script>
+
+</head>
+
+<body>
+
+	<!-- The Opening Screen -->
+
+	<section class="starting_screen">
+		<img id="bg_open" class="img_bg" src="imgaes/backgrounds/bg_starting_screen.png" alt="opening screen background">
+	<div class="spacer120"></div>
+
+	<div id="opening">
+		<div id="htsb_trigger">
+			<img id="logo" src="imgaes/assets/logo.png" alt="uOS logo">
+		</div>
+		<h1 >uOS</h1>
+		<h2>Your OS, Useful OS, or Useless OS.</h2>
+		<p>Scroll to learn more.</p>
+	</div>
+	<div class="spacer240"></div>
+	<div class="spacer120"></div>
+	
+	</section>
+
+	<!-- Taskbar Section -->
+
+	<section class="taskbar_section">
+		<div class="spacer120"></div>
+		<h1>Now lets talk about the TASKBAR</h1>
+	<div id="vtsb_trigger" class="spacer120"></div>
+
+	<!--Horizontal Taskbar-->
+
+	<div id="taskbar">
+		<div id="htsb_reveal" class="h-taskbar">
+		<h2>Would you like it Horizontal?</h2>
+		<img id="htsb" src="imgaes/assets/taskbar.png" alt="horizontal taskbar">
+	</div>
+</div>
+
+		
+		<div class="spacer180"></div>
+		<div class="spacer240"></div>
+	
+
+	<!--Vertical Taskbar-->
+
+	<div id="verticaltsb">
+		<div class="v-taskbar">
+			<div id="vtsb_holder">
+				<img src="imgaes/assets/taskbar.png" alt="vertical taskbar">
+		<h2>OR used to reading Vertically?</h2>
+	</div>
+		
+		<div id="vtsb_reveal"></div>
+	</div>
+</div>
+	<div id="ctsb_trigger" class="spacer240"></div>
+	<div class="spacer240"></div>
+	<div class="spacer80"></div>
+	
+
+	<!--Other Taskbar-->
+
+	<div id="other_tsbs">
+		<h2>Or something else?</h2>
+		<div id="ptsb_trigger" class="spacer30"></div>
+		<div id="corner_tsb">
+			<img id="corner_menu_icon" src="imgaes/assets/tsb_menu1.png" alt="menu icon">
+			<div class="corner_tsb">
+				<img id="corner_tsb_reveal" src="imgaes/assets/corner_tsb.png" alt="corner taskbar">
+			</div>
+		</div>
+		<div id="pop_tsb">
+			<img id="pop_menu_icon" src="imgaes/assets/tsb_menu2.png" alt="menu icon">
+			<div class="pop_tsb">
+				<img id="pop_tsb_reveal" src="imgaes/assets/pop_tsb.png" alt="pop up taskbar">
+	</div>
+		</div>
+	</div>
+
+	<div class="spacer240"></div>
+	<div class="spacer120"></div>
+	<div id="bar1x_trigger"class="spacer80"></div>
+	<div id="bar1min_trigger"class="spacer80"></div>
+	<div class="spacer30"></div>
+	<div id="bar1max_trigger" class="spacer30"></div>
+	<div class="spacer30"></div>
+	<div id="bar2x_trigger"class="spacer80"></div>
+	<div class="spacer120"></div>
+	<div id="bar2max_trigger"class="spacer120"></div>
+
+
+
+
+	<!--Buttons Placement-->
+	<div id="buttons">
+		<h2 id="bar2min_trigger">Also, where do you want your buttons?</h2>
+		<h2>Left?</h2>
+		<div id="bar2dark_trigger"></div>
+		<div id="bar1">
+			<img id="bar1_x" src="imgaes/assets/shape_x.png" alt="x button">
+			<div class="small_inline_gap"></div>
+			<img id="bar1_min" src="imgaes/assets/shape_min.png" alt="Minimize button">
+			<div class="small_inline_gap"></div>
+			<img id="bar1_max" src="imgaes/assets/shape_max.png" alt="Maximize button">
+		</div>
+		
+		<div class="spacer30"></div>
+
+		<h2 id="text_middle">Somewhere in the middle?</h2>
+		
+
+		<h2 id="bar2_h2">Or Right?</h2>
+		<div id="bar2">
+			<img id="bar2_min" src="imgaes\assets\line_min.png" alt="Minimize button">
+			<img id="bar2_max" src="imgaes/assets/line_max.png" alt="Maximize button">
+			<img id="bar2_x" src="imgaes/assets/line_x.png" alt="x button">
+		</div>
+	</div>
+</section>		
+
+<div class="spacer500"></div>
+<div id="themes_trigger" class="spacer240"></div>
+
+<!--Theme Section-->
+<section id="select_trigger" class="themes">
+	<div id="themes_holder">
+	<h2 id="theme_header">And have it in Light or Dark mode.</h2>
+	<h2 id="theme_header1">Or Something Else.</h2>
+	<div id="#theme_options_trigger" class="spacer30"></div>
+
+	<div id="realistic_trigger" class="themes_grid">
+		<div id="realisticpin_trigger"></div>
+		<div id="themes" class="theme1">
+			<img src="imgaes/assets/theme_assets/theme (1).png" alt="theme icon 1">
+		</div>
+		<div id="themes" class="theme2">
+			<img src="imgaes/assets/theme_assets/theme (2).png" alt="theme icon 2">
+		</div>
+		<div id="themes" class="theme3">
+			<img src="imgaes/assets/theme_assets/theme (3).png" alt="theme icon 3">
+		</div>
+		<div id="themes" class="theme4">
+			<img src="imgaes/assets/theme_assets/theme (4).png" alt="theme icon 4">
+		</div>
+		
+		<div id="themes" class="theme5">
+			<img src="imgaes/assets/theme_assets/theme (5).png" alt="theme icon 5">
+		</div>
+		<div id="themes" class="theme6">
+			<img src="imgaes/assets/theme_assets/theme.png" alt="theme icon 6">
+		</div>
+		<div id="themes" class="theme7">
+			<img id="select" src="imgaes/assets/theme_assets/desk_icon.png" alt="theme icon 7">
+		</div>
+		<div id="themes" class="theme8">
+			<img src="imgaes/assets/theme_assets/customizetheme_icon.png" alt="theme icon 8">
+		</div>
+	</div>
+
+	<div class="spacer30"></div>
+
+	<div id="realistic_theme">
+		<img id="realistic_img" src="imgaes/assets/theme_assets/desk.jpg" alt="realistic theme">
+		<div id="real_text1">
+			<h2>Browse and Read</h2>
+		</div>
+		<div id="real_text2">
+			<h2>Find your Files</h2>
+		</div>
+		<div id="real_text3">
+			<h2>Write your Thoughts</h2>
+		</div>
+	</div>
+
+	<div class="spacer500"></div>
+	<div class="spacer240"></div>
+
+	<section id="after_theme">
+	<div id="real_theme">
+		<h2>Use the Realistic Theme.<br>Feel more related to what is on your desktop.</h2>
+	</div>
+	<div class="spacer500"></div>
+	</section>
+
+	<section id="closing_section">
+		<div class="spacer120"></div>
+		<div>
+			<h1>Make it your most useful OS.</h1>
+			<h2>More Features to be announced.</h2>
+
+			<div class="spacer30"></div>
+
+			<h3>Images from https://pixabay.com and https://www.flaticon.com/</h3>
+		</div>
+		<div class="spacer500"></div>
+		
+	</section>
+
+	
+
+	</div>
+</section>
+
+	
+</body>
+
+<script src="javascript/general.js"></script>
+<script src="javascript/taskbar.js"></script>
+<script src="javascript/themes.js"></script>
+
+</html>

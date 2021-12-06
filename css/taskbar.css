@@ -1,0 +1,230 @@
+.taskbar_section{
+    background-color: white;
+}
+
+#opening p{
+    text-align: center;
+}
+
+#htsb_reveal {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+         -moz-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+             -o-transform: scale(0.9);
+                    transform: scale(0.9);
+    -webkit-transition: all 1s ease-in-out;
+         -moz-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+             -o-transition: all 1s ease-in-out;
+                    transition: all 1s ease-in-out;
+}
+#htsb_reveal.visible {
+    opacity: 1;
+    -webkit-transform: none;
+         -moz-transform: none;
+            -ms-transform: none;
+             -o-transform: none;
+                    transform: none;
+}
+
+.h-taskbar{
+    width:80%;
+    margin:0 auto;
+}
+
+#htsb{
+    width:90%;
+    height:100px;
+    margin:0 auto;
+}
+
+#verticaltsb{
+    margin:0 auto;
+    width:80%;
+}
+
+#vtsb_holder {
+    transform: rotate(90deg);
+    position: absolute;
+    right:-10%;
+}
+#vtsb_holder img {
+    height:100px;
+    width: auto;
+}
+
+.v-taskbar{
+    margin-left: 20%;
+}
+
+.v-taskbar h2{
+    margin-left: 5%;
+}
+
+#vtsb_reveal {
+    width:40px;
+    height: 800px;
+    background-color: lightgrey;
+    transition: width 1s;
+    position: absolute;
+    right:22%;
+    margin-top: -19%;
+}
+#vtsb_reveal.expand {
+    width:65%;
+    transform: none;
+} 
+
+#other_tsbs h2{
+    text-align: center;
+}
+
+#corner_menu_icon{
+    position:absolute;
+    left: 10%;
+    width:100px;
+    height: auto;
+}
+
+#corner_tsb_reveal {
+    position: absolute;
+    left:18%;
+    width: 400px;
+    height:auto;
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+         -moz-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+             -o-transition: all 1s ease-in-out;
+                    transition: all 1s ease-in-out;
+}
+
+#corner_tsb_reveal.visible {
+    opacity: 1;
+}
+
+#pop_menu_icon{
+    position: absolute;
+    width:100px;
+    height: auto;
+    margin-top: 50%;
+    right:16%;
+
+}
+
+#pop_tsb_reveal{
+    position: absolute;
+    right:16%;
+    margin-top: 25%;
+    width: 450px;
+    height:auto;
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+         -moz-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+             -o-transition: all 1s ease-in-out;
+                    transition: all 1s ease-in-out;
+}
+
+#pop_tsb_reveal.visible {
+    opacity: 0.6;
+}
+
+#buttons{
+    width:80%;
+    margin: 0 auto;
+}
+#bar1{
+    display: block;
+    width:100%;
+    height:50px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+#bar1 img{
+    width: 45px;
+    height: 45px;
+}
+
+#bar1_x{
+    margin-top: 2.5px;
+    margin-left: 30%;
+    transition: margin-left 1s ease-in-out;
+}
+
+#bar1_x.move{
+    margin-left:1%;
+}
+
+#bar1_min{
+    margin-left:40%;
+    transition: margin-left 1.2s ease-in-out;
+}
+
+#bar1_min.move{
+    margin-left: 0;
+}
+
+#bar1_max{
+    margin-left: 50px;
+    transition: margin-left 1.5s ease-in-out;
+}
+
+#bar1_max.move{
+    margin-left: 0;
+}
+
+#text_middle{
+    margin-left: 50%;
+}
+
+#bar2_h2{
+    text-align: right;
+}
+
+#bar2{
+    display: block;
+    width:100%;
+    height:50px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+#bar2 img{
+    width:40px;
+    height:40px;
+}
+#bar2_min{
+    margin-left:50%;
+    transition: margin-left 1.5s ease-in-out;
+}
+
+#bar2_min.move{
+    margin-left:86%;
+}
+
+#bar2_max{
+    margin-left:10%;
+    transition: margin-left 1.2s ease-in-out;
+}
+
+#bar2_max.move{
+    margin-left:1%;
+}
+
+#bar2_x{
+    margin-top: 5px;
+    margin-left:10%;
+    transition: margin-left 1s ease-in-out;
+}
+
+#bar2_x.move{
+    margin-left: 1%;
+}
+
+#bar2.dark{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
