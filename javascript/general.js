@@ -13,7 +13,7 @@ var controller = new ScrollMagic.Controller({
                 triggerElement: sections[i]
             })
             .setPin(sections[i], {pushFollowers: false})
-            .addIndicators() // add indicators (requires plugin)
+            // .addIndicators() // add indicators (requires plugin)
             .addTo(controller);
     }
 

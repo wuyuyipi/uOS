@@ -5,7 +5,7 @@ new ScrollMagic.Scene({
     offset: 50 // move trigger to center of element
 })
 .setClassToggle("#htsb_reveal", "visible") // add class to reveal
-.addIndicators() // add indicators (requires plugin)
+// .addIndicators() // add indicators (requires plugin)
 .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -15,7 +15,7 @@ new ScrollMagic.Scene({
     offset:0
 })
 .setClassToggle("#vtsb_reveal","expand")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 
 
@@ -26,7 +26,7 @@ new ScrollMagic.Scene({
     offset:0
 })
 .setClassToggle("#corner_tsb_reveal","visible")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -36,7 +36,7 @@ new ScrollMagic.Scene({
     offset:0
 })
 .setClassToggle("#pop_tsb_reveal","visible")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 
 
@@ -47,7 +47,7 @@ new ScrollMagic.Scene({
     offset:0
 })
 .setClassToggle("#bar1_x","move")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -57,7 +57,7 @@ new ScrollMagic.Scene({
     offset:0
 })
 .setClassToggle("#bar1_min","move")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -67,7 +67,7 @@ new ScrollMagic.Scene({
     offset:0
 })
 .setClassToggle("#bar1_max","move")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -77,7 +77,7 @@ new ScrollMagic.Scene({
     offset:0
 })
 .setClassToggle("#bar2_min","move")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -87,7 +87,7 @@ new ScrollMagic.Scene({
     offset:0
 })
 .setClassToggle("#bar2_max","move")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -97,7 +97,7 @@ new ScrollMagic.Scene({
     offset:0
 })
 .setClassToggle("#bar2_x","move")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -106,5 +106,5 @@ new ScrollMagic.Scene({
     duration:"100%"
 })
 .setClassToggle("#bar2","dark")
-.addIndicators()
+// .addIndicators()
 .addTo(controller);
